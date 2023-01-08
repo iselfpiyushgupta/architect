@@ -3,257 +3,250 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Architect Website</title>
+    <link rel="stylesheet" href="style.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,700,900&display=swap"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>The Road</title>
   </head>
   <body>
-    <div class="container">
-      <!-- Navbar -->
-      <div class="open-navbar-icon navbar-icon center">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+    <div class="spinner-container">
+      <div class="circles">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
-      <div class="navbar-wrapper">
-        <nav class="navbar">
-          <div class="close-navbar-icon navbar-icon center">
-            <div class="line line-1"></div>
-            <div class="line line-2"></div>
-          </div>
-          <div class="nav-list">
-            <a href="#" class="nav-link center">Home</a>
-            <a href="#" class="nav-link center">Tours</a>
-            <a href="#" class="nav-link center">About Us</a>
-            <a href="#" class="nav-link center">Offer</a>
-            <a href="#" class="nav-link center">Contact</a>
-          </div>
-        </nav>
-      </div>
-      <!-- End of Navbar -->
+    </div>
 
-      <!-- Header -->
-      <header class="header center">
-        <div class="header-text">
-          <h1 class="heading">Around the world</h1>
-          <p class="header-paragraph">
-            "Traveling - it leaves you speechless, then turns you into a
-            storyteller"
-          </p>
+    <div class="container">
+      <div class="hamburger-menu">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+        <span>Close</span>
+      </div>
+      <header class="header">
+        <div class="img-wrapper">
+          <img src="images/bg.jpg" />
         </div>
-        <img
-          src="images/air-balloon.png"
-          alt="Header Image"
-          class="header-image"
-        />
-        <div class="logo">
-          <h1>
-            <span class="center">t</span>
-            <span class="center">h</span>
-            <span class="center">e</span>
-            <span class="center">r</span>
-            <span class="center">o</span>
-            <span class="center">a</span>
-            <span class="center">d</span>
-          </h1>
+        <div class="banner">
+          <h1>Architecture & Interior Design</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button>Discover now</button>
         </div>
       </header>
-      <!-- End of Header -->
 
-      <!-- Popular tours -->
-      <section class="popular-tours">
-        <h1 class="popular-tours-heading">The Most Popular Tours</h1>
+      <section class="sidebar">
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="#" class="menu-link" data-content="Home">Home</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link" data-content="About Us">About Us</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link" data-content="Team">Team</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link" data-content="Pricing">Pricing</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link" data-content="Contact">Contact</a>
+          </li>
+        </ul>
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </section>
+
+      <section class="about-us">
+        <div class="section-header">
+          <h1 class="section-heading">About Us</h1>
+          <div class="underline"></div>
+        </div>
+        <div class="services">
+          <div class="service">
+            <div class="service-header">
+              <i class="fas fa-pen-nib"></i>
+              <h3>Interior</h3>
+            </div>
+            <p class="service-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Doloremque, officia! Necessitatibus delectus sed dicta corrupti
+              voluptatibus, omnis eius vel ab magni nemo, incidunt esse! Quod!
+            </p>
+          </div>
+          <div class="service">
+            <div class="service-header">
+              <i class="fas fa-paint-roller"></i>
+              <h3>Exterior</h3>
+            </div>
+            <p class="service-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Doloremque, officia! Necessitatibus delectus sed dicta corrupti
+              voluptatibus, omnis eius vel ab magni nemo, incidunt esse! Quod!
+            </p>
+          </div>
+          <div class="service">
+            <div class="service-header">
+              <i class="fas fa-pencil-alt"></i>
+              <h3>Design</h3>
+            </div>
+            <p class="service-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Doloremque, officia! Necessitatibus delectus sed dicta corrupti
+              voluptatibus, omnis eius vel ab magni nemo, incidunt esse! Quod!
+            </p>
+          </div>
+          <div class="service">
+            <div class="service-header">
+              <i class="fas fa-paint-brush"></i>
+              <h3>Decoration</h3>
+            </div>
+            <p class="service-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Doloremque, officia! Necessitatibus delectus sed dicta corrupti
+              voluptatibus, omnis eius vel ab magni nemo, incidunt esse! Quod!
+            </p>
+          </div>
+          <div class="service">
+            <div class="service-header">
+              <i class="fas fa-ruler-combined"></i>
+              <h3>Planning</h3>
+            </div>
+            <p class="service-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Doloremque, officia! Necessitatibus delectus sed dicta corrupti
+              voluptatibus, omnis eius vel ab magni nemo, incidunt esse! Quod!
+            </p>
+          </div>
+          <div class="service">
+            <div class="service-header">
+              <i class="far fa-building"></i>
+              <h3>Execution</h3>
+            </div>
+            <p class="service-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Doloremque, officia! Necessitatibus delectus sed dicta corrupti
+              voluptatibus, omnis eius vel ab magni nemo, incidunt esse! Quod!
+            </p>
+          </div>
+          <div class="about-us-img-wrapper">
+            <img src="images/house.png" />
+          </div>
+        </div>
+      </section>
+
+      <section class="team">
+        <div class="section-header">
+          <h1 class="section-heading">Our Team</h1>
+          <div class="underline"></div>
+        </div>
         <div class="cards-wrapper">
-          <div class="card">
-            <div class="front-side">
-              <img src="images/forest.jpg" alt="Forest" class="card-image" />
-              <h1 class="tour-name">The wild forest</h1>
-              <ul class="card-list">
-                <li class="card-list-item">7 days tour</li>
-                <li class="card-list-item">Up to 20 people</li>
-                <li class="card-list-item">4 tour guides</li>
-                <li class="card-list-item">Sleep in private tents</li>
-                <li class="card-list-item">Difficulty: medium</li>
-              </ul>
-              <button class="navigation-button">
-                price &gt;&gt;
-              </button>
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/person-1.jpg" alt="CEO" />
             </div>
-            <div class="back-side center">
-              <button class="navigation-button">
-                &lt;&lt; back
-              </button>
-              <h3 class="tour-price">$399</h3>
-              <button class="card-button">Booking</button>
+            <div class="card-info">
+              <h2>John Smith</h2>
+              <h3>CEO</h3>
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, impedit!"
+              </p>
+              <button>Read More</button>
             </div>
           </div>
-          <div class="card">
-            <div class="front-side">
-              <img src="images/river.jpg" alt="River" class="card-image" />
-              <h1 class="tour-name">Along the river</h1>
-              <ul class="card-list">
-                <li class="card-list-item">9 days tour</li>
-                <li class="card-list-item">Up to 30 people</li>
-                <li class="card-list-item">7 tour guides</li>
-                <li class="card-list-item">Sleep in private tents</li>
-                <li class="card-list-item">Difficulty: hard</li>
-              </ul>
-              <button class="navigation-button">
-                price &gt;&gt;
-              </button>
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/person-2.jpg" alt="Designer" />
             </div>
-            <div class="back-side center">
-              <button class="navigation-button">
-                &lt;&lt; back
-              </button>
-              <h3 class="tour-price">$499</h3>
-              <button class="card-button">Booking</button>
+            <div class="card-info">
+              <h2>Ann Brown</h2>
+              <h3>Designer</h3>
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, impedit!"
+              </p>
+              <button>Read More</button>
             </div>
           </div>
-          <div class="card">
-            <div class="front-side">
-              <img src="images/sea.jpg" alt="Sea" class="card-image" />
-              <h1 class="tour-name">The island beach</h1>
-              <ul class="card-list">
-                <li class="card-list-item">5 days tour</li>
-                <li class="card-list-item">Up to 40 people</li>
-                <li class="card-list-item">8 tour guides</li>
-                <li class="card-list-item">Sleep in hotel</li>
-                <li class="card-list-item">Difficulty: easy</li>
-              </ul>
-              <button class="navigation-button">
-                price &gt;&gt;
-              </button>
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/person-3.jpg" alt="Architect" />
             </div>
-            <div class="back-side center">
-              <button class="navigation-button">
-                &lt;&lt; back
-              </button>
-              <h3 class="tour-price">$599</h3>
-              <button class="card-button">Booking</button>
+            <div class="card-info">
+              <h2>Mary Doe</h2>
+              <h3>Architect</h3>
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, impedit!"
+              </p>
+              <button>Read More</button>
             </div>
           </div>
         </div>
       </section>
-      <!-- End of Popular tours -->
 
-      <!-- Stories -->
-      <section class="stories">
-        <div class="video-container">
-          <video class="bg-video" autoplay muted loop>
-            <source src="images/video.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="stories-wrapper">
-          <div class="story-bg">
-            <div class="story">
-              <img
-                src="images/story-img-1.jpg"
-                alt="Customer image"
-                class="story-image"
-              />
-              <div class="story-text">
-                <h1 class="story-heading">
-                  These were the best days of this year
-                </h1>
-                <p class="story-paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Architecto quas, repudiandae veritatis nam mollitia cumque
-                  distinctio, quia aperiam aliquid at consequuntur libero
-                  quisquam facilis laborum inventore repellat perspiciatis vel
-                  fugiat molestias recusandae eum necessitatibus quo possimus
-                  aspernatur? Nobis, architecto eaque.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="story-bg">
-            <div class="story">
-              <img
-                src="images/story-img-2.jpg"
-                alt="Customer image"
-                class="story-image"
-              />
-              <div class="story-text">
-                <h1 class="story-heading">
-                  I enjoyed this great tour
-                </h1>
-                <p class="story-paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Architecto quas, repudiandae veritatis nam mollitia cumque
-                  distinctio, quia aperiam aliquid at consequuntur libero
-                  quisquam facilis laborum inventore repellat perspiciatis vel
-                  fugiat molestias recusandae eum necessitatibus quo possimus
-                  aspernatur? Nobis, architecto eaque.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End of Stories -->
-
-      <!-- Contact -->
       <section class="contact">
-        <h1 class="contact-heading">Contact Us</h1>
-        <form class="contact-form center">
-          <div class="input-group">
-            <label>Full Name *</label>
-            <input
-              type="text"
-              class="contact-input"
-              placeholder="Enter Your Name"
-            />
+        <div class="contact-wrapper">
+          <div class="contact-left"></div>
+          <div class="contact-right">
+            <h1 class="contact-heading">Contact</h1>
+            <form>
+              <div class="input-group">
+                <input type="text" class="field" />
+                <label class="input-label">Full Name</label>
+              </div>
+              <div class="input-group">
+                <input type="email" class="field" />
+                <label class="input-label">Email</label>
+              </div>
+              <div class="input-group">
+                <textarea class="field"></textarea>
+                <label class="message">Message</label>
+              </div>
+              <input type="submit" class="submit-btn" value="Submit" />
+            </form>
           </div>
-          <div class="input-groups">
-            <div class="input-group">
-              <label>Email *</label>
-              <input
-                type="email"
-                class="contact-input"
-                placeholder="Enter Your Email"
-              />
-            </div>
-            <div class="input-group">
-              <label>Phone</label>
-              <input
-                type="text"
-                class="contact-input"
-                placeholder="Enter Phone Number"
-              />
-            </div>
-          </div>
-          <div class="input-group">
-            <label>Message</label>
-            <textarea
-              class="form-textarea"
-              placeholder="Your Message Here..."
-            ></textarea>
-          </div>
-          <input type="submit" value="Submit" class="form-btn" />
-        </form>
-      </section>
-      <!-- End of Contact -->
-
-      <!-- Footer -->
-      <footer class="footer">
-        <div class="footer-list">
-          <a href="#" class="footer-link">Home</a>
-          <a href="#" class="footer-link">Tours</a>
-          <a href="#" class="footer-link">About Us</a>
-          <a href="#" class="footer-link">Offer</a>
-          <a href="#" class="footer-link">Contact</a>
         </div>
-        <p class="footer-paragraph">
-          Copyright &copy; CodeAndCreate All Rights Reserved
-        </p>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <p class="copyright">
+            Copyright &copy; 2020, CodeAndCreate - All Rights Reserved
+          </p>
+          <div class="social-list">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
       </footer>
-      <!-- End of Footer -->
+      <a href="#" class="scroll-btn">
+        <i class="fas fa-arrow-up"></i>
+      </a>
     </div>
+
     <script src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="tilt.js"></script>
   </body>
 </html>
